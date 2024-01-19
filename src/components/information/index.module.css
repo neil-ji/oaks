@@ -1,0 +1,59 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarWrap {
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    border-radius: 70px;
+    transition: all .3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.root address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-primary);
+    margin-top: var(--size-l);
+}
+
+.root address > * {
+    margin-top: var(--size-s);
+}
+
+.author {
+    font-size: var(--size-l);
+}
+
+.job {
+    font-size: var(--size-m);
+}
+
+.location {
+    font-size: var(--size-m-);
+    color: var(--color-secondary);
+}
+
+.motto {
+    font-size: var(--size-m);
+}

@@ -1,0 +1,8 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-primary);
+    background-color: var(--color-nav);
+    width: 80px;
+    justify-content: space-around;
+}

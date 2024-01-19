@@ -1,13 +1,13 @@
 import { Information } from "@/components/index";
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function Tags() {
   return (
     <>
       <aside>
         <Information />
       </aside>
-      <main>hello home</main>
+      <main>hello tags</main>
     </>
   );
 }

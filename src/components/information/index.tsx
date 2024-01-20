@@ -1,7 +1,7 @@
 import Image from "next/image";
-import avatar from "../../../public/avatar.png";
 import { getBlogConfig } from "@/utils";
 import styles from "./index.module.css";
+import { GithubLink } from "./github-icon/index";
 
 export function Information() {
   const config = getBlogConfig();
@@ -13,7 +13,7 @@ export function Information() {
             className={styles.avatar}
             height={140}
             width={140}
-            src={avatar}
+            src="/avatar.png"
             alt="Avatar of the author"
           />
         </div>
@@ -25,9 +25,18 @@ export function Information() {
             {config.job}
           </div>
           <div className={styles.location} aria-label="Location">
-            {config.location}
+            <Image
+              height={16}
+              width={16}
+              src="/location_dark.svg"
+              alt="Location icon"
+              data-type="svg"
+            />
+            <span>{config.location}</span>
           </div>
-          <div aria-label="Find me in other sites">Github</div>
+          <div className={styles.websites} aria-label="Find me on other sites">
+            <GithubLink url={config.github} />
+          </div>
           <div className={styles.motto} aria-label="motto">
             {config.motto}
           </div>

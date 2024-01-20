@@ -13,8 +13,20 @@
 
   --size-l: 24px;
   --size-m: 16px;
-  --size-m-: 14px;
   --size-s: 8px;
+
+  --size-primary: 16px;
+  --size-secondary: 14px;
+
+  --size-gap-ll: 18px;
+  --size-gap-lm: 16px;
+  --size-gap-ls: 14px;
+  --size-gap-ml: 12px;
+  --size-gap-mm: 10px;
+  --size-gap-ms: 8px;
+  --size-gap-sl: 6px;
+  --size-gap-sm: 4px;
+  --size-gap-ss: 2px;
 }
 
 body {
@@ -40,4 +52,10 @@ aside>* {
 main {
   background-color: var(--color-bg);
   flex: 1;
+}
+
+/* SVGs can be styled using CSS. Setting width and height to 1em allows changing size via font-size. */
+img[data-type=svg] {
+  width: 1em;
+  height: 1em;
 }

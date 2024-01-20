@@ -3,8 +3,9 @@ import { getBlogConfig } from "@/utils";
 import styles from "./index.module.css";
 import { GithubLink } from "./github-icon/index";
 
+const config = getBlogConfig();
+
 export function Information() {
-  const config = getBlogConfig();
   return (
     <div className={styles.root}>
       <div className={styles.wrap}>

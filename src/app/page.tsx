@@ -1,16 +1,123 @@
-import { Footer, Information } from "@/components/index";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <>
-      <aside>
-        <Information />
-      </aside>
-      <main>
-        <div>hello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello homehello home</div>
-        <Footer />
-      </main>
+      hello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello homehello homehello homehello homehello
+      homehello homehello homehello home
     </>
   );
 }

@@ -6,3 +6,26 @@
     width: 80px;
     justify-content: space-around;
 }
+
+.listItem {
+    height: 46px;
+    text-align: center;
+}
+
+.listItem>a {
+    line-height: 40px;
+    color: var(--color-primary);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: all .3s;
+}
+
+.listItem>a:hover {
+    background-color: var(--color-nav-hover);
+}
+
+.listItemActive {
+    background-color: var(--color-nav-active);
+}

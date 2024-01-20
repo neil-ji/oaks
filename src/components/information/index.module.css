@@ -22,7 +22,7 @@
     height: 140px;
     position: absolute;
     border-radius: 70px;
-    transition: all .3s ease;
+    transition: all .3s;
 }
 
 .avatar:hover {

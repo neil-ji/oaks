@@ -1,4 +1,4 @@
-import { Information } from "@/components/index";
+import { Footer, Information } from "@/components/index";
 import styles from "./page.module.css";
 
 export default function Tags() {
@@ -7,7 +7,10 @@ export default function Tags() {
       <aside>
         <Information />
       </aside>
-      <main>hello tags</main>
+      <main>
+        <div>hello tags</div>
+        <Footer />
+      </main>
     </>
   );
 }

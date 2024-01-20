@@ -1,4 +1,4 @@
-import { Information } from "@/components/index";
+import { Footer, Information } from "@/components/index";
 import styles from "./page.module.css";
 
 export default function Archives() {
@@ -7,7 +7,10 @@ export default function Archives() {
       <aside>
         <Information />
       </aside>
-      <main>hello archives</main>
+      <main>
+        <div>hello archives</div>
+        <Footer />
+      </main>
     </>
   );
 }

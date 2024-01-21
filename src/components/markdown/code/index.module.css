@@ -1,0 +1,16 @@
+.inlineCodeBlock {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: var(--color-badge);
+    border-radius: 3px;
+    font-family: Consolas, Menlo, Monaco, Courier, monospace;
+}
+
+.inlineCodeBlock::before,
+.inlineCodeBlock::after {
+    letter-spacing: -0.2em;
+    content: "\00a0";
+}

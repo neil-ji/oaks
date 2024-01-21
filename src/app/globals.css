@@ -6,12 +6,13 @@
   --color-hover: #393939;
   --color-active: #454444;
   --color-border: #434343;
-  --color-link: #0366d6;
-  --color-link-hover: #0366d6;
+  --color-link: #65a3cf;
+  --color-link-hover: #70b3ff;
   --color-nav: #22252a;
   --color-nav-active: #676767;
   --color-nav-hover: #464646;
   --color-aside: #282b30;
+  --color-badge: #3f4248;
 
   --size-l: 24px;
   --size-m: 16px;
@@ -76,4 +77,19 @@ main>footer {
 img[data-type=svg] {
   width: 1em;
   height: 1em;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+hr {
+  border-color: var(--color-border);
+  border-style: dashed;
 }

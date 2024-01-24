@@ -1,5 +1,4 @@
 import { Markdown } from "@/components/index";
-import styles from "./page.module.css";
 import "katex/dist/katex.min.css";
 
 const text = `

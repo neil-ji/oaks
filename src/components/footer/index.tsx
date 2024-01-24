@@ -1,3 +1,4 @@
+"use client";
 import styles from "./index.module.css";
 
 export function Footer() {

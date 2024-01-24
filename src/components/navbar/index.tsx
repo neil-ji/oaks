@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import styles from "./index.module.css";
 
 const tabs = ["", "tags", "archives"];
@@ -12,14 +12,14 @@ const textMap: { [key: string]: string } = {
 };
 
 export function Navbar() {
-  const path = usePathname();
+  const segment = useSelectedLayoutSegment() || "";
 
   return (
     <nav className={styles.root}>
       <div role={"list"}>
         {tabs.map((value) => {
           const activeItemClassName =
-            path === `/${value}` ? styles.listItemActive : "";
+            segment === `${value}` ? styles.listItemActive : "";
           return (
             <div
               key={value}

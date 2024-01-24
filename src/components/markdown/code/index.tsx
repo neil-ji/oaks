@@ -15,10 +15,11 @@ export function CustomCode(props: any) {
         wrapLongLines
         PreTag="div"
         lineNumberStyle={{ minWidth: "2.25em" }}
-        children={String(children).replace(/\n$/, "")}
         language={match[1]}
         style={a11yDark}
-      />
+      >
+        {String(children).replace(/\n$/, "")}
+      </SyntaxHighlighter>
     );
   }
   return (

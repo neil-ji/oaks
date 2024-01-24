@@ -1,4 +1,4 @@
-import { Footer, Information, Navbar } from "@/components/index";
+import { Aside, Footer, Navbar } from "@/components/index";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -8,17 +8,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  aside,
   children,
 }: {
-  aside: React.ReactNode;
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body>
         <Navbar />
-        <aside>{aside}</aside>
+        <Aside />
         <main>
           <div>{children}</div>
           <Footer />
